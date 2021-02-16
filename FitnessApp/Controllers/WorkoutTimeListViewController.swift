@@ -34,12 +34,9 @@ class WorkoutTimeListViewController: UIViewController {
     // MARK: - Initial UI Configuration
     
     private func configureUI() {
-        view.backgroundColor = .white
-        navigationController?.navigationBar.barTintColor = .systemIndigo
-        navigationController?.navigationBar.tintColor = .white
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(tappedAddWorkout))
         navigationItem.title = "Workouts"
-        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        view.backgroundColor = .white
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(tappedAddWorkout))
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
