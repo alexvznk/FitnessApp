@@ -1,0 +1,18 @@
+name: FitnessApp
+options:
+  bundleIdPrefix: com.alexv
+  deploymentTarget:
+    iOS: 13.0
+targets:
+  FitnessApp:
+    type: application
+    platform: iOS
+    sources: 
+      - path: FitnessApp
+  FitnessAppTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: FitnessAppTests
+    dependencies:
+      - target: FitnessApp

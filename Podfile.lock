@@ -1,0 +1,20 @@
+PODS:
+  - Firebolt (0.4.8)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Firebolt
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Firebolt
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Firebolt: 542587bb431c4a9b86fa2d47b8c442fdf81fa9ac
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: eb8716fe78031fb27e03f52f71ac3dff75014165
+
+COCOAPODS: 1.10.1
